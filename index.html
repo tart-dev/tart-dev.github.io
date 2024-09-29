@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tart - Dynamic Scripting for Flutter</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        h1 {
+            font-size: 3em;
+            color: #2c3e50;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+        .feature {
+            flex-basis: calc(33.333% - 20px);
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        .cta {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .version {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin-top: 20px;
+        }
+        .partners {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .partner-logo {
+            width: 50px;
+            height: auto;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://raw.githubusercontent.com/hatcha6/tart/main/assets/logo.svg" alt="Tart Logo" class="logo">
+            <h1>Tart</h1>
+            <p>Dynamic Scripting for Flutter</p>
+        </header>
+        
+        <div class="features">
+            <div class="feature">
+                <h2>Dynamic UI Rendering</h2>
+                <p>Create JavaScript-like dynamic Flutter UI experiences where it's currently not supported.</p>
+            </div>
+            <div class="feature">
+                <h2>Runtime Plugin System</h2>
+                <p>Build powerful runtime plugin systems for your Flutter applications.</p>
+            </div>
+            <div class="feature">
+                <h2>Expressive Logic</h2>
+                <p>Provide a complete language for logic where it's currently not supported in Flutter.</p>
+            </div>
+            <div class="feature">
+                <h2>Embeddable</h2>
+                <p>Use Tart as a scripting language within your Flutter apps for ultimate flexibility.</p>
+            </div>
+            <div class="feature">
+                <h2>Familiar Syntax</h2>
+                <p>Designed to be almost identical to Dart & Flutter, minimizing the learning curve.</p>
+            </div>
+            <div class="feature">
+                <h2>Efficient & Expressive</h2>
+                <p>Build dynamic experiences in Flutter with simplicity and power.</p>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>Get Started with Tart</h2>
+            <a href="https://github.com/hatcha6/tart" class="button">View on GitHub</a>
+        </div>
+
+        <div class="version">
+            <h3>Latest Version</h3>
+            <pre><code>tart: ^0.1.0  # Replace with actual version</code></pre>
+        </div>
+
+        <div class="partners">
+            <img src="https://dart.dev/assets/img/shared/dart/logo+text/horizontal/white.svg" alt="Dart Logo" class="partner-logo">
+            <img src="https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png" alt="Flutter Logo" class="partner-logo">
+        </div>
+    </div>
+</body>
+</html>
